@@ -1,0 +1,23 @@
+{
+  "name": "cart-service",
+  "version": "1.0.0",
+  "description": "GraphQL API for CartService",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "./node_modules/.bin/nodemon ./src/index.js",
+    "test": "jest"
+  },
+  "author": "Mitch Masia <mmasia@hexientlabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.2.2",
+    "faker": "^4.1.0",
+    "graphql": "^14.0.2",
+    "lodash-fp": "^0.10.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.6"
+  }
+}
